@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-specifier-resolution=node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "braces": "^3.0.3",
+    "chokidar": "^3.6.0",
+    "debug": "^4.3.5",
+    "express": "^4.19.2",
+    "netlify-lambda": "^2.0.15",
+    "nodemon": "^2.0.22",
+    "serverless-http": "^3.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}

@@ -1,0 +1,1 @@
+export default [ "Ikole", "Osogbo", "Akure", "Lagos", "Ibadan", "Anambra", "Abuja", "Oye-Ekiti", "Ado-Ekiti", "Kwara", "Aramoko" ]
