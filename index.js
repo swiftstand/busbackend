@@ -2,10 +2,6 @@ import express from "express";
 import cityData from "./city.js";
 import travelData from "./travelData.js";
 
-// SIRI
-// import userDetails from "./Siri/userDetails.js";
-// import Cities from "./Siri/Cities.js";
-// import BusSchedule from "./Siri/BusSchedule.js";
 import DatabaseManager from './db_scripts/createTables.js'
 
 // JSON LOADERS
