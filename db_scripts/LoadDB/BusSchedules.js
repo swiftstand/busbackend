@@ -19,7 +19,7 @@ export default [ {
     "Day" : "Sunday",
     "DepartureTime" : "15:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 1000,
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Oye-Ekiti",
@@ -30,7 +30,7 @@ export default [ {
     "Day" : "Sunday",
     "DepartureTime" : "09:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 500,
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Ado-Ekiti",
@@ -41,7 +41,7 @@ export default [ {
     "Day" : "Sunday",
     "DepartureTime" : "15:00",
     "Destination" : "Oye-Ekiti",
-    "Price" : 500,
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Oye-Ekiti",
@@ -74,7 +74,7 @@ export default [ {
     "Day" : "Sunday",
     "DepartureTime" : "09:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 1000,
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Ado-Ekiti",
@@ -85,7 +85,7 @@ export default [ {
     "Day" : "Sunday",
     "DepartureTime" : "15:00",
     "Destination" : "Oye-Ekiti",
-    "Price" : 1000,
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Oye-Ekiti",
@@ -96,7 +96,7 @@ export default [ {
     "Day" : "Sunday",
     "DepartureTime" : "09:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 500,
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Ado-Ekiti",
@@ -107,7 +107,7 @@ export default [ {
     "Day" : "Sunday",
     "DepartureTime" : "15:00",
     "Destination" : "Oye-Ekiti",
-    "Price" : 500,
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Oye-Ekiti",
@@ -140,7 +140,7 @@ export default [ {
     "Day" : "Sunday",
     "DepartureTime" : "09:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 1000,
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Ado-Ekiti",
@@ -151,7 +151,7 @@ export default [ {
     "Day" : "Sunday",
     "DepartureTime" : "15:00",
     "Destination" : "Oye-Ekiti",
-    "Price" : 1000,
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Oye-Ekiti",
@@ -161,11 +161,11 @@ export default [ {
     "Date" : "25-10-2020",
     "Day" : "Sunday",
     "DepartureTime" : "09:00",
-    "Destination" : "Ado-Ekiti",
-    "Price" : 500,
+    "Destination" : "Ibadan",
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
-    "Arrival" : "Ado-Ekiti",
+    "Arrival" : "Ibadan",
     "ArrivalTime" : "16:00",
     "BusID" : 8,
     "BusStandard" : "Business",
@@ -173,10 +173,10 @@ export default [ {
     "Day" : "Sunday",
     "DepartureTime" : "15:00",
     "Destination" : "Oye-Ekiti",
-    "Price" : 500,
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
-    "Arrival" : "Oye-Ekiti",
+    "Arrival" : "Lagos",
     "ArrivalTime" : "12:00",
     "BusID" : 9,
     "BusStandard" : "Economy",
@@ -194,7 +194,7 @@ export default [ {
     "Date" : "25-10-2020",
     "Day" : "Sunday",
     "DepartureTime" : "15:00",
-    "Destination" : "Oye-Ekiti",
+    "Destination" : "Lagos",
     "Price" : 100,
     "TotalSeats" : 30
   }, {
@@ -237,7 +237,7 @@ export default [ {
     "Day" : "Monday",
     "DepartureTime" : "09:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 1000,
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Ado-Ekiti",
@@ -248,10 +248,10 @@ export default [ {
     "Day" : "Monday",
     "DepartureTime" : "15:00",
     "Destination" : "Oye-Ekiti",
-    "Price" : 1000,
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
-    "Arrival" : "Oye-Ekiti",
+    "Arrival" : "Akure",
     "ArrivalTime" : "12:00",
     "BusID" : 2,
     "BusStandard" : "Business",
@@ -259,7 +259,7 @@ export default [ {
     "Day" : "Monday",
     "DepartureTime" : "09:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 500,
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Ado-Ekiti",
@@ -269,8 +269,8 @@ export default [ {
     "Date" : "26-10-2020",
     "Day" : "Monday",
     "DepartureTime" : "15:00",
-    "Destination" : "Oye-Ekiti",
-    "Price" : 500,
+    "Destination" : "Akure",
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Oye-Ekiti",
@@ -280,11 +280,11 @@ export default [ {
     "Date" : "26-10-2020",
     "Day" : "Monday",
     "DepartureTime" : "09:00",
-    "Destination" : "Ado-Ekiti",
+    "Destination" : "Osogbo",
     "Price" : 100,
     "TotalSeats" : 30
   }, {
-    "Arrival" : "Ado-Ekiti",
+    "Arrival" : "Osogbo",
     "ArrivalTime" : "16:00",
     "BusID" : 3,
     "BusStandard" : "Economy",
@@ -295,7 +295,7 @@ export default [ {
     "Price" : 100,
     "TotalSeats" : 30
   }, {
-    "Arrival" : "Oye-Ekiti",
+    "Arrival" : "Ikole",
     "ArrivalTime" : "12:00",
     "BusID" : 4,
     "BusStandard" : "Luxury",
@@ -303,7 +303,7 @@ export default [ {
     "Day" : "Monday",
     "DepartureTime" : "09:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 1000,
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Ado-Ekiti",
@@ -313,8 +313,8 @@ export default [ {
     "Date" : "26-10-2020",
     "Day" : "Monday",
     "DepartureTime" : "15:00",
-    "Destination" : "Oye-Ekiti",
-    "Price" : 1000,
+    "Destination" : "Ikole",
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Oye-Ekiti",
@@ -325,7 +325,7 @@ export default [ {
     "Day" : "Monday",
     "DepartureTime" : "09:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 500,
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Ado-Ekiti",
@@ -336,7 +336,7 @@ export default [ {
     "Day" : "Monday",
     "DepartureTime" : "15:00",
     "Destination" : "Oye-Ekiti",
-    "Price" : 500,
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Oye-Ekiti",
@@ -369,7 +369,7 @@ export default [ {
     "Day" : "Monday",
     "DepartureTime" : "09:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 1000,
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Ado-Ekiti",
@@ -380,7 +380,7 @@ export default [ {
     "Day" : "Monday",
     "DepartureTime" : "15:00",
     "Destination" : "Oye-Ekiti",
-    "Price" : 1000,
+    "Price" : 500,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Oye-Ekiti",
@@ -391,7 +391,7 @@ export default [ {
     "Day" : "Monday",
     "DepartureTime" : "09:00",
     "Destination" : "Ado-Ekiti",
-    "Price" : 500,
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Ado-Ekiti",
@@ -402,7 +402,7 @@ export default [ {
     "Day" : "Monday",
     "DepartureTime" : "15:00",
     "Destination" : "Oye-Ekiti",
-    "Price" : 500,
+    "Price" : 250,
     "TotalSeats" : 30
   }, {
     "Arrival" : "Oye-Ekiti",

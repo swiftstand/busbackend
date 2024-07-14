@@ -249,11 +249,17 @@ server.post('/login/', async (req, res) => {
   dbManager.db.all(
     'SELECT * FROM Users WHERE phoneNumber = ? AND password = ?  ',[phoneNumber, password],
     (err, user) => {
-      console.log("INN - ", user, err)
+      
       if (err || user==[]) {
+        console.log("INN - ", user, err)
         return res.status(500).json({ error: 'could not find user' });
       } else {
-        return res.status(201).json(user[0]);
+        console.log("WET - ", user, err)
+        if (user.length > 0){
+          return res.status(201).json(user[0]);
+        } else {
+          return res.status(500).json({ error: 'could not find user' });
+        }
       }
     }
   )
@@ -279,7 +285,12 @@ server.post('/register/', async (req, res) => {
             if (err || user==[]) {
               return res.status(500).json({ error: 'could not find user' });
             } else {
-              return res.status(201).json(user[0]);
+              console.log("WET - ", user, err)
+              if (user.length > 0){
+                return res.status(201).json(user[0]);
+              } else {
+                return res.status(500).json({ error: 'could not find user' });
+              }
             }
           }
         )
